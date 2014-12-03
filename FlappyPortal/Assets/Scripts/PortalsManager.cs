@@ -44,7 +44,7 @@ public class PortalsManager : MonoBehaviour {
         return PortalsList[PortalCursor];
     }
 
-   public  void notifyPortalHit(GameObject portalHitted, GameObject obj){
+   public void NotifyPortalHit(GameObject portalHitted, GameObject obj){
         var timeStamp = Time.time;
         if (timeStamp - PortalHitTimeStamp > PortalDesactivationDuration) {
             PortalHitTimeStamp = timeStamp;

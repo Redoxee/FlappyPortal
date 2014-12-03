@@ -15,7 +15,7 @@ public class CharacterBehavior : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-        this.transform.position += this.Speed * Time.deltaTime;
+        transform.position += Speed * Time.deltaTime;
 	}
 
 

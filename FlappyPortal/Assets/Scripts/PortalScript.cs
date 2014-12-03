@@ -7,6 +7,6 @@ public class PortalScript : MonoBehaviour {
 
     void OnTriggerEnter(Collider other)
     {
-        managerReference.notifyPortalHit(this.gameObject, other.gameObject);
+        managerReference.NotifyPortalHit(this.gameObject, other.gameObject);
     }
 }
